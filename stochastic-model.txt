@@ -1,3 +1,6 @@
+# Example of input file for the stochastic model of a generative piece.
+# Inline comments start with '#' character
+
 # global parameters
 bgColor         360 0 0
 color           360 0 100
@@ -8,6 +11,7 @@ clothRipCoeffY  30 15
 body
     # default quantitative traits for body
     bodyHeight          1       0.2 # quantitative trait that has normal distribution
+                                    # with  mean 1 and std. deviation 0.2
     shrinkCoefficient   0.5  -  0.8 # quantitative trait that has uniform probability
     line.variance       0.6     0.2 # qunatitative trait that modifies line parameters
     waistWidth  0.166   0.2
