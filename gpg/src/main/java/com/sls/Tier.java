@@ -1,4 +1,4 @@
-package com.sls.gpg;
+package com.sls;
 
 public enum Tier {
     COMMON,

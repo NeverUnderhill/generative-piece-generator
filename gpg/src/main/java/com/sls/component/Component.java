@@ -1,9 +1,9 @@
-package com.sls.gpg.component;
+package com.sls.component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sls.gpg.attribute.Attribute;
+import com.sls.attribute.Attribute;
 
 public class Component {
     private String name;

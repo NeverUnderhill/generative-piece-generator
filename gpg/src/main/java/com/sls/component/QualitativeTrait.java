@@ -1,10 +1,11 @@
+package com.sls.component;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.Random;
 
 public abstract class QualitativeTrait<T extends Enum<T>> {
     EnumMap<T, Double> probabilityMap;
-    List<QuantitativeTrait> attributes;
+    //List<QuantitativeTrait> attributes;
 
     QualitativeTrait(Class<T> clazz, List<Double> probabilities) {
         probabilityMap = new EnumMap<T, Double>(clazz);

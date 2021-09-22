@@ -1,4 +1,4 @@
-package com.sls.gpg.component;
+package com.sls.component;
 
 public class ComponentType {
     private String name;

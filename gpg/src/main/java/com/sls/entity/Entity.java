@@ -1,9 +1,9 @@
-package com.sls.gpg.entity;
+package com.sls.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sls.gpg.attribute.Attribute;
-import com.sls.gpg.component.Component;
+import com.sls.attribute.Attribute;
+import com.sls.component.Component;
 
 public class Entity {
     String name;
